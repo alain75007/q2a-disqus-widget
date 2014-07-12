@@ -4,7 +4,11 @@ Question2Answer Disqus Widget 1.0
 -----------
 Description
 -----------
-This is a plugin for **Question2Answer** that allows insertion of a **Disqus** embeded comment threads on any pages.
+This is a plugin for **Question2Answer** that allows insertion of a **Disqus** embeded comment threads on any page.
+
+This widget was developped for QuestionCode_
+
+.. _QuestionCode: http://questioncode.fr
 
 --------
 Features
@@ -23,7 +27,7 @@ Installation
      at the command prompt (on Linux, Windows is a bit different)
    - To download directly, go to the `project page`_ and click **Download**
 
-#. Navigate to your site, go to **Admin -> Plugins** on your q2a install and enter your **Disqus** SSO public end private key if you want SSO to be enabled.
+#. Navigate to your site, go to **Admin -> Plugins** on your q2a install and enter your **Disqus** SSO public and private key if you want SSO to be enabled.
 
 #. Go to Admin > Layout and click "Add widget" next to "Tag List". Choose the positions and pages, then save. 
 
