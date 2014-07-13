@@ -3,7 +3,6 @@ class qa_disqus_widget
 {
     function allow_template($template)
     {
-        error_log('cocuou2');
         return true;
     }
 
@@ -44,7 +43,6 @@ class qa_disqus_widget
         {
             // SSO CONFIGURATION
 
-        error_log('cocuou2');
             $data = array(
                 "id" => qa_get_logged_in_userid(),
                 "username" => qa_get_logged_in_handle(),
